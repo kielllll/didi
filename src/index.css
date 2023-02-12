@@ -1,12 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 html,
 body,
 p {
   overflow: hidden;
   overflow-anchor: none;
+}
+
+body {
+  background-color: #000;
 }
 
 body,
@@ -15,5 +15,15 @@ p {
 }
 
 p {
+  background-image: url('/src/didi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  background-attachment: fixed;
+  text-align: justify;
+  color: transparent;
+  font-size: 12px;
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
