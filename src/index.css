@@ -15,7 +15,7 @@ p {
 }
 
 p {
-  background-image: url('/public/didi.jpg');
+  background-image: url('/static/didi.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
